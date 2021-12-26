@@ -9,7 +9,7 @@ const currentyear = new Date().getFullYear();
         const countDown = document.getElementById("countdown");
         const currentYear = new Date().getFullYear();
         const newYearTime = new Date(`January 01 ${currentYear + 1} 00:00:00`);
-        document.getElementById("year").innerHTML = currentYear + 1 + " | Sachin Lohar"
+        document.getElementById("year").innerHTML = currentYear + 1 + " | Sifuna "
         document.getElementById("currentyear").innerHTML = currentYear + 1
 
         function play() {
